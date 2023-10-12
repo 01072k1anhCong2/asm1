@@ -96,9 +96,7 @@ function renderTableData(petArr) {
   }"></i></td>
   <td>${petArr[i].data}</td>
   <td>
-  <button type="button" class="btn btn-danger" onclick="deletePet('${
-    petArr[i].id
-  }')"
+  <button type="button" class="btn btn-danger" onclick="deletePet('đéo xóa được đâu hahahah')"
     >Delete</button>
   </td>`;
     thantbody.appendChild(row);
